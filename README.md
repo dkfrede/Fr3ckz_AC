@@ -1,4 +1,4 @@
-# Fr3ckz_AC (open-source)
+# Fr3ckz_AC (open-source) (credit needed)
 
 Hej, dette er mit anticheat jeg lavede for ca 6 måneder siden.
 Så hvis det hele ser lidt kludret ud så er det nok derfor.
