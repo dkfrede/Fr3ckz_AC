@@ -1,9 +1,3 @@
 # Fr3ckz_AC (open-source) (credit needed)
 
-Hej, dette er mit anticheat jeg lavede for ca 6 måneder siden.
-Så hvis det hele ser lidt kludret ud så er det nok derfor.
-Siden jeg ikke spiller FiveM mere, har jeg valgt og udgive dette.
-Jeg fandt aldrig en opfusactor, såå det blev aldrig til noget...
-Jeg yder ingen support på dette, det er et halvdt færdigt anticheat, jeg lavede på et par dage.
-Der er ting fra:
-modelblacklist (blacklist systemer)
+Hey! - Jeg vælger og udgive mit anticheat, som jeg endelig kom i mål med. Men aldrig fandt en opfusactor. Jeg brugte virkelig ikke særlig langtid på det, men vil ikke have at de bare skal flyde i mine filer. Så hellere udgive det. Dette er et gammelt anticheat, så hvis det hele ser lidt pis ud, er det nok derfor...
