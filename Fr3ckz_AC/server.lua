@@ -48,7 +48,6 @@ if Fr3ckzAC.AutoClear then
             TriggerClientEvent("chat:clear", -1)
             TriggerClientEvent('chatMessage', -1, "🛡️ | ^1Fr3ckz_AC ^0| Auto Cleared!", {249, 77, 20})
             Citizen.Wait(Fr3ckzAC.AutoClearDelay)
-            Citizen.Wait(0)
         end
     end)
 end
