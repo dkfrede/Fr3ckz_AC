@@ -76,10 +76,6 @@ Fr3ckzAC.BlacklistedEvents = { -- Blacklisted Events
     "scrap:SellVehicle",
 }
 
--- // HEAL EVERYONE // -- (BETA)
-Fr3ckzAC.HealEveryone = true
-Fr3ckzAC.HealEveryoneCMD = 'healE'
-
 -- // WORD BLACKLIST // --
 Fr3ckzAC.AntiWords = { -- Blacklisted Ord
     "G0LD-K1DS",
