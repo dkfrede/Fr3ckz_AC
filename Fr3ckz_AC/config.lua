@@ -11,9 +11,6 @@
 
 Fr3ckzAC = {}
 
--- // VERSION // -- (IK RØR)
-Fr3ckzAC.Version = "v1.0"
-
 -- // DEFAULT // --
 Fr3ckzAC.BlacklistWeapon = true -- Blacklisted Våben System
 Fr3ckzAC.DisableAllWeapons = false -- Blacklisted Alle våben
