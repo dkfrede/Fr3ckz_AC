@@ -1,3 +1,9 @@
 # Fr3ckz_AC (open-source) (credit needed)
 
-Hey! - Jeg vælger og udgive mit anticheat, som jeg endelig kom i mål med. Men aldrig fandt en opfusactor. Jeg brugte virkelig ikke særlig langtid på det, men vil ikke have at de bare skal flyde i mine filer. Så hellere udgive det. Dette er et gammelt anticheat, så hvis det hele ser lidt pis ud, er det nok derfor...
+Hejsa,
+Dette er mit anticheat jeg lavede for ca 3 måneder siden, eftersom det aldrig blev til noget vælger jeg og udgive det.
+Der indholder code fra andre udviklere, som er creditted.
+
+*Credit*
+modelblacklist - https://forum.cfx.re/t/release-model-blacklist-v1-1/7574/40
+trigger events - https://forum.cfx.re/t/how-to-create-an-anti-cheat-list-of-vulnerable-and-abused-events-updated-january-2020/789618
