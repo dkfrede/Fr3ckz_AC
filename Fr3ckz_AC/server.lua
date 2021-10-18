@@ -19,23 +19,6 @@ vRPclient = Tunnel.getInterface("vRP","Fr3ckz_AC_v1.0")
 ResourceName = GetCurrentResourceName()
 Bans = 0
 
-RegisterNetEvent("Fr3ckz_AC:HealEveryone")
-AddEventHandler("Fr3ckz_AC:HealEveryone", function()
-    local source = source
-    local user_id = vRP.getUserId({source})
-    local allPlayers = vRP.getUsers({})
-    for k,v in pairs(allPlayers) do
-        if vRP.hasPermission({user_id, Fr3ckzAC.Permission}) then
-            local user_ids = vRP.getUserId({v})
-            local user_ids2 = vRP.getUserSource({v})
-            --vRPclient.varyHealth(user_ids2, {100}) (virker ikke så vi caller en client istedet)
-            TriggerClientEvent("Fr3ckz_AC:HealEveryoneCL", v)
-            vRP.setHunger({tonumber(user_ids), 0})
-            vRP.setThirst({tonumber(user_ids), 0})
-        end
-    end
-end)
-
 -- En log over hvem der starter lortet.
 RegisterNetEvent("Fr3ckz:Start")
 AddEventHandler("Fr3ckz:Start", function()
