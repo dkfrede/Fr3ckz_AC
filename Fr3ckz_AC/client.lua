@@ -84,19 +84,6 @@ function isCarBlacklisted(model)
 	return false
 end
 
--- Heal Everyone
-RegisterCommand(Fr3ckzAC.HealEveryoneCMD, function()
-	if Fr3ckzAC.HealEveryone == true then
-		TriggerServerEvent("Fr3ckz_AC:HealEveryone")
-	end
-end)
-
-RegisterNetEvent("Fr3ckz_AC:HealEveryoneCL")
-AddEventHandler("Fr3ckz_AC:HealEveryoneCL", function(everyone)
-	local eveyoneped = PlayerPedId(everyone)
-    SetEntityHealth(eveyoneped,200)
-end)
-
 -- Blacklist Ped Funktion
 defaultpedmodel = Fr3ckzAC.DefaultPed
 
