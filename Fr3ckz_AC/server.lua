@@ -265,13 +265,12 @@ if Fr3ckzAC.TriggerProtection == true then
     end
 end
 
--- forum
 AddEventHandler("chatMessage", function(source, n, message)
     for k, n in pairs(Fr3ckzAC.AntiWords) do
         if string.match(message:lower(), n:lower()) then
             if Fr3ckzAC.AntiWord == true then
             CancelEvent()
-            TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = 'Ordet      (' ..message.. ') er blacklisted!', length = 10000, style = { ['background-color'] = '#dc1313', ['color'] = '#ffffff' } })
+            TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = 'Ordet (' ..message.. ') er blacklisted!', length = 10000, style = { ['background-color'] = '#dc1313', ['color'] = '#ffffff' } })
             local source = source
             local user_id = vRP.getUserId({source})
             --print("^1[^0🛡️ | Fr3ckz_AC^1] ^0Blacklisted ord! - Ord: ^1".. message .." ^0- ID: ^1" ..user_id)
