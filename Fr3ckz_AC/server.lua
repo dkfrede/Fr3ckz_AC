@@ -111,33 +111,6 @@ AddEventHandler('Fr3ckz_AC:spectaterMode', function()
     vRP.ban({user_id, "[🛡️ | Fr3ckz_AC] | "..Fr3ckzAC.BanReason})
 end)
 
-RegisterServerEvent('Fr3ckz_AC:objectDetection')
-AddEventHandler('Fr3ckz_AC:objectDetection', function(entity)
-    local source = source
-    local user_id = vRP.getUserId({source})
-    
-    local license,steamID,liveid,xblid,discord,playerip  = "n/a","n/a","n/a","n/a","n/a","n/a"
-    for k,v in ipairs(GetPlayerIdentifiers(source)) do
-            if string.sub(v, 1, string.len("steam:")) == "steam:" then
-                    steamID = v
-            elseif string.sub(v, 1, string.len("ip:")) == "ip:" then
-                    playerip = v
-            end
-    end
-    Bans = Bans + 1
-    PerformHttpRequest(Fr3ckzAC.Webhook, function(o,p,q) end,'POST',json.encode(
-        {
-            username = "🛡️ | Fr3ckz_AC",
-            embeds = {
-                {              
-                    title = "🛡️ | Fr3ckz_AC | Object";
-                    description = 'Spiller ID: **' ..user_id.. '**\nObject: **' ..entity.. '**\nSteam: **' ..steamID.. '**\nIP: **--disabled--**';
-                    color = 15731467;
-                }
-            }
-        }), { ['Content-Type'] = 'application/json' })
-end)
-
 
 RegisterServerEvent('Fr3ckz_AC:sendBlacklistCarNotify')
 AddEventHandler('Fr3ckz_AC:sendBlacklistCarNotify', function(blacklistedCar)
