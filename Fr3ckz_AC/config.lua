@@ -23,7 +23,7 @@ Fr3ckzAC.AntiWord = true -- Blacklist af ord
 Fr3ckzAC.AntiSpectate = true -- Fjern muligheden for at spectate andre
 
 -- // BAN/KICK-REASON \\ --
-Fr3ckzAC.BanReason = "Stop med at modde..." -- Ban/Kick grunden, når man bliver taget.
+Fr3ckzAC.BanReason = "Stop med at modde..." -- Ban/Kick grunden, hvis man bliver taget.
 
 -- // EKSTRA \\ --
 Fr3ckzAC.Permission = "player.kick" -- Hvilken "staff" permission, så at staff får de forskellige beskeder.
