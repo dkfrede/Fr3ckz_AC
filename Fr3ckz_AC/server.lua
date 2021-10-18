@@ -19,17 +19,6 @@ vRPclient = Tunnel.getInterface("vRP","Fr3ckz_AC_v1.0")
 ResourceName = GetCurrentResourceName()
 Bans = 0
 
--- En log over hvem der starter lortet.
-RegisterNetEvent("Fr3ckz:Start")
-AddEventHandler("Fr3ckz:Start", function()
-   if Fr3ckzAC.License == "neger" or Fr3ckzAC.License == "nigga" or Fr3ckzAC.License == "nigger" or Fr3ckzAC.License == "" or Fr3ckzAC.License == nil then
-    print("\n* Fr3ckz_AC *\nDit license navn, er ikke tilladt, ændre det omgående...\n* Fr3ckz_AC *")
-   else
-   print("\n* Fr3ckz_AC * \nLicense: " ..Fr3ckzAC.License.."\nWebhook: Godkendt\nResourceNavn: " ..ResourceName.. "\nVersion: " ..Fr3ckzAC.Version.. "\n* Fr3ckz_AC *")
-   end
-end)
-
-
 if Fr3ckzAC.AutoMessage then
     Citizen.CreateThread(function()
         while true do
